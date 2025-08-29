@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinansialKita - Pinjaman Online Terpercaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        .loan-calculator {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .stats-number {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-indigo-600">FinansialKita</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="beranda.html" class="text-indigo-600 font-medium">Beranda</a>
+                    <a href="pembayaran.html" class="text-gray-600 hover:text-indigo-600">Pembayaran</a>
+                    <a href="dash.html" class="text-gray-600 hover:text-indigo-600">Dashboard</a>
+                    
+                    <button class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors">
+                        <a href="masuk.html" class="text-white hover:text-indigo-600">Masuk</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white pt-20 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                        Pinjaman Online Cepat & Terpercaya
+                    </h1>
+                    <p class="text-xl mb-8 text-indigo-100">
+                        Dapatkan pinjaman hingga Rp 50 juta dengan proses cepat, bunga kompetitif, dan tanpa jaminan.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <button class="bg-white text-indigo-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                            Ajukan Pinjaman
+                        </button>
+                        <button class="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors">
+                            Pelajari Lebih Lanjut
+                        </button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d062de43-eb7f-451a-896b-ab969bf713fe.png" alt="Ilustrasi pinjaman digital dengan grafik pertumbuhan dan perangkat mobile" class="rounded-xl shadow-2xl" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <div class="stats-number">50.000+</div>
+                    <p class="text-gray-600 text-lg">Pengguna Terdaftar</p>
+                </div>
+                <div class="p-6">
+                    <div class="stats-number">Rp 250M+</div>
+                    <p class="text-gray-600 text-lg">Pinjaman Disalurkan</p>
+                </div>
+                <div class="p-6">
+                    <div class="stats-number">99%</div>
+                    <p class="text-gray-600 text-lg">Kepuasan Pelanggan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Kenapa Memilih FinansialKita?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bolt text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Proses Cepat</h3>
+                    <p class="text-gray-600">Persetujuan pinjaman dalam hitungan jam, cair langsung ke rekening Anda.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-percent text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Bunga Rendah</h3>
+                    <p class="text-gray-600">Bunga kompetitif mulai dari 0.8% per bulan, transparan tanpa biaya tersembunyi.</p>
+                </div>
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md text-center">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Aman & Terpercaya</h3>
+                    <p class="text-gray-600">Data Anda dilindungi dengan enkripsi tingkat bank dan regulasi OJK.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loan Calculator -->
+    <section class="bg-white py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="loan-calculator bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Simulasi Pinjaman</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 mb-2">Jumlah Pinjaman</label>
+                            <input type="range" min="1000000" max="50000000" step="1000000" value="10000000" class="w-full" id="loanAmount">
+                            <div class="text-right text-indigo-600 font-semibold" id="loanAmountValue">Rp 10.000.000</div>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 mb-2">Tenor (Bulan)</label>
+                            <input type="range" min="3" max="36" step="1" value="12" class="w-full" id="loanTerm">
+                            <div class="text-right text-indigo-600 font-semibold" id="loanTermValue">12 Bulan</div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg">
+                        <h3 class="text-lg font-semibold mb-4">Rincian Pinjaman</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between">
+                                <span>Jumlah Pinjaman:</span>
+                                <span class="font-semibold" id="summaryAmount">Rp 10.000.000</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Tenor:</span>
+                                <span class="font-semibold" id="summaryTerm">12 Bulan</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Bunga per Tahun:</span>
+                                <span class="font-semibold">9.6%</span>
+                            </div>
+                            <div class="flex justify-between text-lg font-bold text-indigo-600">
+                                <span>Angsuran per Bulan:</span>
+                                <span id="monthlyPayment">Rp 877.000</span>
+                            </div>
+                        </div>
+                        <button class="w-full bg-indigo-600 text-white py-3 rounded-lg mt-6 hover:bg-indigo-700 transition-colors">
+                            Ajukan Sekarang
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <span class="text-2xl font-bold text-white">FinansialKita</span>
+                    <p class="text-gray-400 mt-4">Layanan pinjaman online terpercaya untuk kebutuhan finansial Anda.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Layanan</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Pinjaman Personal</a></li>
+                        <li><a href="#" class="hover:text-white">Pinjaman Bisnis</a></li>
+                        <li><a href="#" class="hover:text-white">Pinjaman Pendidikan</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Bantuan</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white">Syarat & Ketentuan</a></li>
+                        <li><a href="#" class="hover:text-white">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Kontak</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p>Email: @finansialkita.com</p>
+                        <p>Telepon:01813645086</p>
+                        <p>Jam Operasional: 08:00-17:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2024 FinansialKita. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Loan Calculator Logic
+        function updateCalculator() {
+            const loanAmount = parseInt(document.getElementById('loanAmount').value);
+            const loanTerm = parseInt(document.getElementById('loanTerm').value);
+            
+            // Format currency
+            document.getElementById('loanAmountValue').textContent = 'Rp ' + loanAmount.toLocaleString('id-ID');
+            document.getElementById('loanTermValue').textContent = loanTerm + ' Bulan';
+            
+            document.getElementById('summaryAmount').textContent = 'Rp ' + loanAmount.toLocaleString('id-ID');
+            document.getElementById('summaryTerm').textContent = loanTerm + ' Bulan';
+            
+            // Calculate monthly payment (simple calculation)
+            const annualInterest = 0.096; // 9.6% per year
+            const monthlyInterest = annualInterest / 12;
+            const monthlyPayment = (loanAmount * monthlyInterest) / (1 - Math.pow(1 + monthlyInterest, -loanTerm));
+            
+            document.getElementById('monthlyPayment').textContent = 'Rp ' + Math.round(monthlyPayment).toLocaleString('id-ID');
+        }
+
+        document.getElementById('loanAmount').addEventListener('input', updateCalculator);
+        document.getElementById('loanTerm').addEventListener('input', updateCalculator);
+        
+        // Initialize calculator
+        updateCalculator();
+    </script>
+</body>
+</html>
+
